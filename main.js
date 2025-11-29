@@ -1,3 +1,4 @@
+
 console.log("Main.js cargado correctamente");
 
 const btnCargar = document.getElementById('btn-cargar');
@@ -81,6 +82,7 @@ function dibujarGrafo(matriz){
 
 btnEjecutar.addEventListener('click', () => {
     console.log("Ejecutando algoritmo...");
+    
 });
 
 btnBipartito.addEventListener('click', () => {
@@ -90,3 +92,4 @@ btnBipartito.addEventListener('click', () => {
         alert("No se encontró bipartito.js");
     }
 });
+
